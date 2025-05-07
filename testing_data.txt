@@ -1,0 +1,28 @@
+int i = 10;
+int N;
+Read N;
+int k = 10;
+if(N > 0)
+{
+    while(i > 0)
+    {
+        int S = 0;
+        do
+        {
+            S = S + 1;
+            if(S < 10)
+            {
+                k = k - 1;
+            }
+            else
+            {
+                k = k - 2;
+            }
+
+        }while (k > 0)
+    }
+}
+else
+{
+    S = S + k;
+}
